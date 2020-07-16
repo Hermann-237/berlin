@@ -181,4 +181,43 @@ main {
     top: 180%;
     margin-top: 120px;
 }
+@media screen and ( max-width:450px){
+    h1{
+        font-size: 20px;
+        font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    margin-right: 90px;
+    
+    }
+    button{
+        background-color: yellow;
+        border-radius: 5px;
+        height: 40px;
+        width: 40%;
+        font-size: 15px;
+        font-weight: bold;
+        margin-right: 90px;
+    }
+/* icone */
+.big{
+    width: 100%;
+    display: inline-block;
+    margin-left: 0%;
+    margin-top: 30px;
+}
+.icone{
+    float: left;
+ width: 40%;
+ height: 100px;
+}
+.small{
+ float: right;
+    width: 60%;
+ height: 100px;
+ padding-top: 20px;
+ 
+}
+
+}
 
